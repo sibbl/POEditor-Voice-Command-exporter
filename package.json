@@ -1,0 +1,17 @@
+{
+  "name": "POEditor Voice Command exporter",
+  "version": "0.0.0",
+  "description": "This tool allows you to export and generate a Voice Command Definition file by exporting terms and their definitions from POEditor.com.",
+  "main": "app.js",
+  "private": true,
+  "author": {
+    "name": "Sebastian Müller",
+    "email": "me@sibbl.net"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.64.0",
+    "string-format": "^0.5.0",
+    "xmlbuilder": "^3.1.0"
+  }
+}
