@@ -42,7 +42,7 @@ var config =
     commandSetNameFormat: "ParkenDdCommands_{lang}"
 };
 
-var vcdXml = require("xmlbuilder").create("VoiceCommands", { version: "1.0", encoding: "UTF-8" });
+var vcdXml = require("xmlbuilder").create("VoiceCommands", { version: "1.0", encoding: "utf-8" });
 vcdXml.att("xmlns", "http://schemas.microsoft.com/voicecommands/1.2");
 
 var promises = {};
